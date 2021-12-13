@@ -1,0 +1,89 @@
+body{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    line-height: 1.5;
+}
+.title {
+    margin: 0;
+    font-size: 24px;
+    color: blue;
+    font-style: initial;
+    text-align: center;
+    text-decoration: dotted underline red;
+}
+.form {
+    margin: 0 auto;
+    background-color: lightslategray;
+    width: 500px;
+}
+.form-fieldset {
+    padding: 20px;
+    border: 1px ;
+    border-left-color: rgb(94, 65, 150);
+    border-right-color: rgb(59, 44, 21);
+    border-top-color:  rgb(134, 19, 67);
+    border-bottom-color:  rgb(9, 194, 148);
+    border-left-style: dashed ;
+    border-right-style: solid;
+    border-top-style: dotted;
+    border-bottom-style: double ;   
+}
+.form-title {
+    margin: 0 0 15px 0;
+}
+.form-input{
+    padding: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: block;
+}
+.form-input:focus {
+    outline: none;
+    background-color: grey;
+}
+.form-textarea {
+    width: 200px;
+    height: 100px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-textarea:focus {
+    outline: none;
+    background-color: grey;
+}
+.link {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+.link:visited{
+    color: hotpink;
+}
+.link:hover {
+    text-decoration: underline;
+}
+.link:active {
+    color: rgb(199, 71, 135);
+}
+.btn {
+    padding: 5px 10px;
+    background-color: green;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(7, 238, 142);
+}
+.btn:hover {
+    background-color: rgb(4, 122, 4);
+    cursor: pointer;
+}
+.btn:disabled {
+    background-color: rgb(146, 72, 72);
+    color: rgb(146, 72, 72);
+    border: 1px solid rgb(146, 72, 72);
+    cursor: not-allowed;
+}
+.btn:active {
+    background-color: rgb(1, 112, 1);
+}
